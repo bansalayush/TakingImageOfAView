@@ -38,3 +38,4 @@ String fileStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
 ```
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 ```
+This is very useful in cases like signature pads, where the user draws something and then wants to save an image of it.
